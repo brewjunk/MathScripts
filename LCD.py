@@ -1,3 +1,7 @@
+#LCD.py
+#Version 1.00 (Changed on 12 Jun 18:23)
+#!/usr/bin/env python3
+
 #Lowest common multiple or two or more numbers.
 import time
 while True:
