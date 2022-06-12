@@ -1,3 +1,7 @@
+prime_factors.py
+#Version 1.00 (Changed on 12 Jun 18:23)
+#!/usr/bin/env python3
+
 import time
 with open('million_primes.txt', 'r')as million_prime_factors:
     prime_factor_list = []
