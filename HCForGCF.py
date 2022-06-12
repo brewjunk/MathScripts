@@ -1,5 +1,5 @@
 #HCForGCF.py
-#Version 1.00 (Changed on 12 Jun 18:23)
+#Version 1.01 (Changed on 12 Jun 18:23)
 #!/usr/bin/env python3
 
 
@@ -20,10 +20,14 @@ while True:
           GCF is often used to find common denominators.
 
     """)
-    user_number_set = input("          Please enter a set of numbers seperated by a fullstop >> ")
-    #print("          {}".format(user_number_set))
-    list_user_numbers = user_number_set.split('.')
-    #print(list_user_numbers)
+    user_number_set = input("          Please enter a set of positive integers separated by a space >> ")
+    
+    if len(user_number_set) == 0:
+        quit()
+    else:
+        pass
+    list_user_numbers = user_number_set.split()
+    
     quantity_nums = len(list_user_numbers)
     print("""
 
