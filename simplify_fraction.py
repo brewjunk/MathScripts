@@ -57,7 +57,6 @@ while True:
 
     """.format(result_lst[0],result_lst[1]))
 
-    #print("          | [ {} ] is the HCF (aka GCF,GCD)".format(common_factors_output[-1]))
     print("""
 
 
