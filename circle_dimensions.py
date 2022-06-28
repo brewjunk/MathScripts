@@ -6,7 +6,7 @@ while True:
           ||||||!!||Find Circumference,radius,area of circle.||||||||!!|||
           |||||||||||!!||||||||||||||!!||||||||||||||!!||||||||||||||!!|||
           C = 2πr
-                A = πr2
+                A = π(r)**2
                 A = π × r2, where 'r' is the radius.
                 A = (π/4) × d2, where 'd' is the diameter.
                 A = C2/4π, where 'C' is the circumference.
@@ -20,7 +20,7 @@ while True:
         print("          The circumference of the circle is:{:0.4f} units".format(C))
 
     def find_area_of_circle(r):
-        """A = πr2
+        """A = π(r)**2
         Area = π × r2, where 'r' is the radius.
         Area = (π/4) × d2, where 'd' is the diameter.
         Area = C2/4π, where 'C' is the circumference."""
