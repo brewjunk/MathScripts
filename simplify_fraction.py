@@ -1,5 +1,5 @@
 #simplify_fraction.py
-#Version 1.00 (Changed on 12 Jun 18:23)
+#Version 1.01 (Changed on 1 Jul 21:51)
 #!/usr/bin/env python3
 
 import time
@@ -76,3 +76,10 @@ while True:
         break
     elif check == "1":
         continue
+    elif check != "1" and check != "2":
+        check = input("""          Would you like to try another set?:
+          (Type 1 to try another, Or 0 to quit!)
+        """)
+    print("""
+    
+          |||||||||||!!||||||||||||||!!||||||||||||||!!||||||||||||||!!|||""")
